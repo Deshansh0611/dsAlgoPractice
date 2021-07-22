@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class NextGreaterNumber {
     public static void main(String[] args) {
-        int[] arr = {11, 13};
+        int[] arr = {11, 13, 5, 18, 9};
         for(int i: getNextGreaterNumbers(arr))
             System.out.println(i);
     }
